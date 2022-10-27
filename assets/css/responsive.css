@@ -1,0 +1,406 @@
+@media (max-width:1300px) {
+	.wrapper {
+		width: 940px;
+	}
+	.main {
+        padding: 0 80px;
+    }
+}
+@media (max-width:1169px) {
+	
+	.wrapper {
+		width: 860px;
+	}
+	.main {
+        padding: 0 50px;
+    }
+	nav ul li {
+        margin-left: 48px;
+    }
+    
+    .header-top {
+        background: linear-gradient(to right, #1f7cba 68%, #3498db 35%);
+    }
+    .slider-sec .item.slick-slide {
+        height: 493px;
+    }
+    section.all-in-one-product .thumbnail img {
+        width: 90%;
+    }
+    section.all-in-one-product .product-price h2 {
+        font-size: 45px;
+    }
+    
+    section.all-in-one-product .cart-btn a {
+        padding: 10px 50px;
+    }
+}
+@media (max-width:991px) {
+
+	.wrapper {
+		width: 100%;
+	}
+    .main {
+        padding: 0 30px;
+    }
+    nav ul li a:hover {
+        background: #1f7cba;
+    }
+    
+    nav ul li:last-child {
+        margin: 0;
+    }
+	nav ul {
+        position: absolute;
+        top: 85px;
+        right: 0px;
+        z-index: 9999;
+    }
+    
+    nav ul {
+        align-items: center;
+        background: #34495e;
+        width: 300px;
+        display: none;
+        text-align: center;
+    }
+    
+    .header-top {
+        background: linear-gradient(to right, #1f7cba 65%, #3498db 35%);
+    }
+    .slider-sec .item.slick-slide {
+        height: 390px;
+    }
+    section.all-in-one-product .thumbnail img {
+        width: 90%;
+    }
+    section.all-in-one-product .product-price h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    section.all-in-one-product .cart-btn a {
+        padding: 10px 30px;
+    }
+    .header-top .wrapper-item-1 {
+        flex: 0 0 65%;
+    }
+    
+    .header-top .wrapper-item-2 {
+        flex: 0 0 35%;
+    }
+    
+    .header-top .wrapper-body {
+        align-items: center;
+    }
+    nav ul li {
+        margin-left: unset;
+        margin-bottom: 5px;
+    }
+    
+    nav ul li a {
+        color: white;
+        display: block;
+        padding: 8px;
+    }
+    
+    nav .hamburger {display: flex;}
+    header {
+        overflow: visible;
+    }
+    .header-bottom {
+        position: relative;
+        overflow: visible;
+    }
+    nav {
+        overflow: visible;
+    }
+    .hamburger.current span:nth-child(2) {
+        display: none;
+    }
+    
+    .hamburger.current span:nth-child(1) {
+        transform: rotate(45deg);
+        position: relative;
+        top: 11px;
+    }
+    
+    .hamburger.current span:nth-child(3) {
+        transform: rotate(309deg);
+        position: relative;
+        top: -10px;
+    }
+    section.all-in-one-product .flow-txt h3 {
+        font-size: 100px;
+    }
+    
+    section.all-in-one-product .flow-txt {
+        bottom: 33px;
+    }
+    
+    .header-bottom .wrapper-item-1 {
+        flex: 0 0 40%;
+    }
+    
+    .header-bottom .wrapper-item-2 {
+        flex: 0 0 60%;
+    }
+    
+    .slick-dots button {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .product-sec .item.slick-slide .thumbnail img {
+        width: 90%;
+        margin: 0 auto;
+        height: 110px;
+    }
+    
+    .product-sec .item.slick-slide .product-name h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .product-sec .item.slick-slide .product-price h3 {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    
+    .product-sec button.slick-next.slick-arrow {
+        right: 10px;
+    }
+    
+    .product-sec button.slick-prev.slick-arrow {
+        display: none !important;
+    }
+    
+    section.cta .explore-btn a {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    footer .menu ul li {
+        margin: 0 10px;
+    }
+}
+@media (max-width:767px) {
+
+	.wrapper {
+		width: 100%;
+	}
+	.main {
+        padding: 0;
+    }
+    
+    .header-top .wrapper-item-1 {
+        flex: 0 0 100%;
+        margin: 0 0 20px;
+    }
+    
+    .header-top .wrapper-item-2 {
+        flex: 0 0 100%;
+    }
+    
+    .header-top {
+        background: linear-gradient(to right, #1f7cba 100%, #3498db 35%);
+    }
+    
+    .header-top .content p {
+        text-align: center;
+        FONT-VARIANT: JIS04;
+    }
+    
+    .header-top .info-details ul {
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .header-bottom .wrapper-item-1 {
+        flex: 0 0 60%;
+    }
+    
+    .header-bottom .wrapper-item-2 {
+        flex: 0 0 40%;
+    }
+    
+    .slider-sec .item.slick-slide {
+        height: 264px;
+    }
+    
+    .slick-dots button {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .slider-sec button.slick-next.slick-arrow {
+        height: 40px;
+        width: 40px;
+        background-size: 30%;
+    }
+    
+    .slider-sec button.slick-prev.slick-arrow {
+        height: 40px;
+        width: 40px;
+        background-size: 30%;
+    }
+    section.all-in-one-product .title h4 {
+        font-size: 14px;
+    }
+    
+    section.all-in-one-product .wrapper-item-2 {
+        padding: 20px 0 20px 30px;
+    }
+    
+    section.all-in-one-product .product-name h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    section.all-in-one-product .product-price h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    section.all-in-one-product .cart-btn a {
+        padding: 6px 12px;
+        font-size: 18px;
+    }
+    
+    section.all-in-one-product .product-name {
+        margin: 0 0 15px;
+    }
+    
+    section.all-in-one-product .flow-txt h3 {
+        font-size: 68px;
+    }
+    
+    section.all-in-one-product .flow-txt {
+        bottom: 18px;
+    }
+    .product-sec button.slick-next.slick-arrow {
+        background-size: 25%;
+        width: 40px;
+        height: 40px;
+    }
+    section.cta .custom {
+        height: 300px;
+    }
+    
+    section.cta .explore-btn a {
+        font-size: 25px;
+        line-height: 35px;
+        border: 4px solid white;
+    }
+    
+    footer .menu ul li {
+        margin: 0 14px;
+    }
+    
+    footer .menu ul li a {
+        font-size: 12px;
+    }
+    
+    footer .copy-right p {
+        font-size: 11px;
+    }
+}
+@media (max-width:479px) {
+	
+	.wrapper {
+		width: 100%;
+	}
+    .header-top .content p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    .header-top .wrapper-item-1 {
+        margin: 0 0 14px;
+    }
+    
+    .header-bottom .wrapper-item-1 {
+        flex: 0 0 70%;
+    }
+    
+    .header-bottom .wrapper-item-2 {
+        flex: 0 0 30%;
+    }
+    
+    .header-bottom .logo img {
+        width: 100%;
+        height: auto;
+    }
+    
+    nav ul {
+        top: 100%;
+    }
+    
+    .slider-sec .item.slick-slide {
+        height: 178px;
+    }
+    
+    .slick-dots button {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        border: 2px solid #313865;
+    }
+    
+    .slick-dots .slick-active button {
+        border: 2px solid #ffffff;
+    }
+    
+    .slick-dots {
+        bottom: 10px;
+    }
+    
+    .slider-sec button.slick-next.slick-arrow {
+        width: 30px;
+        height: 30px;
+        background-size: 30%;
+        right: 10px;
+    }
+    
+    .slider-sec button.slick-prev.slick-arrow {
+        height: 30px;
+        width: 30px;
+        background-size: 30%;
+        left: 10px;
+    }
+    section.all-in-one-product .wrapper-item-1 {
+        flex: 0 0 100%;
+    }
+    
+    section.all-in-one-product .wrapper-item-2 {
+        flex: 0 0 100%;
+    }
+    
+    section.all-in-one-product .product-price h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    
+    section.all-in-one-product .cart-btn a {
+        padding: 10px
+     35px;
+        font-size: 18px;
+    }
+    
+    .product-sec .item.slick-slide .product-name h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    section.cta .explore-btn a {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    footer .copy-right p {text-align: center;font-size: 14px;}
+    
+    footer .copy-right .wrapper-item {
+        flex: 0 0 100%;
+    }
+
+}
